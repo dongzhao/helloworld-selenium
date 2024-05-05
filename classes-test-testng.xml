@@ -1,0 +1,14 @@
+<suite name="Test-class Suite" parallel="tests" thread-count="3">
+    <test name="Test-class test 1">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+            <class name="demo.selenium.OpenChatroomPageTest" />
+        </classes>
+    </test>
+    <test name="Test-class test 2">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+            <class name="demo.selenium.OpenChatroomPageTest" />
+        </classes>
+    </test>
+</suite>
